@@ -1,0 +1,33 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width:15%;
+
+}
+.sidebar-icon{
+    color: #ff9e2e;
+}
+.sidebar-btn{
+    background-color: #fff;
+    border: 0;
+}
+.sidebar-elements{
+    margin: 0.5rem;
+    display: flex;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.sidebar-elements:hover{
+    border:#ff9e2e 1px solid;
+    cursor: pointer;
+    color: #ff9e2e;
+    background-color: #fff2e4;
+
+}
+.sidebar-btn:hover{
+    background-color: #fff2e4;
+    color: #ff9e2e;
+
+
+}
