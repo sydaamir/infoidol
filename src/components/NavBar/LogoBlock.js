@@ -1,4 +1,4 @@
-import logo from "./Assets/logo.png"
+import logo from "../Assets/logo.png"
 const LogoBlock = () => {
     return (
 
@@ -7,5 +7,5 @@ const LogoBlock = () => {
         </>
     );
 }
- 
+
 export default LogoBlock;
