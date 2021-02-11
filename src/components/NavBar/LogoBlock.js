@@ -1,10 +1,13 @@
 import logo from "../Assets/logo.png"
+
 const LogoBlock = () => {
     return (
 
-        <>
-            <img src={logo} alt="InfoIdol logo"/>
-        </>
+        <div className="LogoBlock">
+            <a href="#">
+                <img src={logo} alt="InfoIdol logo"/>
+            </a>
+        </div>
     );
 }
 

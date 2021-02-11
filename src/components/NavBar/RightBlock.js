@@ -6,11 +6,22 @@ import AccountBoxRoundedIcon from '@material-ui/icons/AccountBoxRounded';
 const RightBlock = () => {
     return (
         <section className="rightBlock">
-            <span><ForumRoundedIcon/></span>
-            <span><VideoCallRoundedIcon/></span>
-            <span><NotificationsRoundedIcon/></span>
-            <span><AccountBoxRoundedIcon/> Mc Stand</span>
+            <a href="#">
+                <span><ForumRoundedIcon/></span>
+            </a>
+            
+            <a href="#">
+                <span><VideoCallRoundedIcon/></span>
+            </a>
+            
+            <a href="#">
+                <span><NotificationsRoundedIcon/></span>
+            </a>
 
+            <a href="#">
+                <span><AccountBoxRoundedIcon/><span className="profile-name">Mc Stand</span></span>
+            </a>
+            
         </section>
     );
 }
