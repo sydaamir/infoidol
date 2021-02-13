@@ -6,6 +6,14 @@ import HeadsetIcon from '@material-ui/icons/Headset';
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import PersonAddIcon from '@material-ui/icons/PersonAdd';
+
+import Login from '../Login/Login';
+import VideoLike from '../HitApi/VideoLike';
+import VideoDislike from '../HitApi/VideoDislike';
+import VideoCategory from '../HitApi/VideoCategory';
+import MusicList from '../HitApi/MusicList';
+import UploadMusic from '../HitApi/UploadMusic';
+import MusicCategory from '../HitApi/MusicCategory';
 const Sidebar = () => {
 
     
@@ -39,6 +47,23 @@ const Sidebar = () => {
                 <span className="sidebar-icon"><PersonAddIcon/></span>
                 <a href="#">Following</a>
             </div>
+
+            {/* For Testing Purpose Only */}
+            <div className="sidebar-elements">
+                <span className="sidebar-icon"><PersonAddIcon/></span>
+                <a ><Login /></a>
+            </div>
+
+            <div className="btn">
+                <>
+                    <VideoLike/>
+                </>
+            </div>
+            <><MusicCategory/></>
+            <><UploadMusic/></>
+            <><VideoDislike/></>
+            <><VideoCategory/></>
+            <><MusicList/></>
         </div>
     )
 }

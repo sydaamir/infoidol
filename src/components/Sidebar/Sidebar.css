@@ -32,9 +32,12 @@ a{
 }
 .sidebar-elements:hover a{
     color: chocolate;
-    padding: 5px 0px;
+    /* padding: 5px 0px; */
+    transform: scale(1.1);
 }
 .sidebar-elements:hover .sidebar-icon{
     color: chocolate;
-    padding: 5px 0px;
+    /* padding: 5px 0px; */
+    transform: scale(1.1);
+    font-weight: bold;
 }
