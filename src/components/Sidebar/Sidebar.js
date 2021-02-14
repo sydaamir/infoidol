@@ -14,6 +14,7 @@ import VideoCategory from '../HitApi/VideoCategory';
 import MusicList from '../HitApi/MusicList';
 import UploadMusic from '../HitApi/UploadMusic';
 import MusicCategory from '../HitApi/MusicCategory';
+import MusicDislike from '../HitApi/MusicDislike';
 const Sidebar = () => {
 
     
@@ -59,6 +60,7 @@ const Sidebar = () => {
                     <VideoLike/>
                 </>
             </div>
+            <><MusicDislike/></>
             <><MusicCategory/></>
             <><UploadMusic/></>
             <><VideoDislike/></>

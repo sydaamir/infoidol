@@ -3,8 +3,8 @@ import axios from 'axios';
 
 const MusicCategory = () => {
     const[musicCategoryData,setmusicCategoryData] = useState({
-        user_id: '',
-        device_id: '',
+        user_id: '1',
+        device_id: 'xfvgfgvfgf',
     });
     const MusicCategories= (e) =>{
         try{
