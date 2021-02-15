@@ -1,0 +1,23 @@
+.trending_container{
+    /* background-color: darkblue; */
+    padding: 10px;
+    margin-left: 252px;
+    margin-right: 394px;
+}
+.trending_elems{
+    display:flex;
+    padding: 10px;
+    
+}
+.trending-img{
+    margin-left: 10px;
+    
+    
+}
+.trending-img img{
+    border-radius: 10px;
+    width: 392px;
+}
+.trending_container h3{
+    margin-left: 22px;
+}

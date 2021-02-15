@@ -5,6 +5,8 @@ import Banner from './components/Body/Banner';
 import TagBar from './components/Body/TagBar';
 import Stories from './components/Body/stories';
 import Album from './components/Body/Album';
+import Trending from './components/Body/trending';
+import Reels from './components/Body/Reels';
 
 
 function App() {
@@ -16,8 +18,18 @@ function App() {
       <Banner/>
     </div>
       <TagBar/>
-      <Stories/>
-      <Album/>
+      <div className="aside">
+        <div className="trending_videos">
+            <Stories/>
+            <Album/>
+            <Trending/>
+        </div>
+        <div className="beside_videos">
+          <Reels/>
+        </div>
+      </div>
+
+
     </div>
   );
 }

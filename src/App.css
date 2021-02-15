@@ -6,3 +6,14 @@
 .body-banner{
     display: flex;
 }
+img:hover{
+    cursor: pointer;
+}
+.aside{
+    display:flex;
+    margin-left: -200px;
+}
+.reels_img{
+    margin-left: -732px;
+    margin-top: 10px;
+}
